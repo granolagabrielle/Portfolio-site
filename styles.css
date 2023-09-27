@@ -56,3 +56,10 @@
     align-items: center;
     text-align: center;
 }
+
+#project_img {
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50px;
+    height: 100px;
+}
