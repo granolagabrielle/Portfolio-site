@@ -1,49 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
-        <div class="one flex-container">
-            <div id="header-title">Portfolio</div>
-            <div id="header-link">
-                <a href="pages/about_page.html">About</a>
-                <a href="https://github.com/granolagabrielle/">GitHub</a>
-                <a href="pages/contact_page.html">Contact Me</a>
-            </div>
-        </div>    
-        <div class="two flex-container">
-            <div id="title">Gabrielle Lommel</div>
-                <div id="placeholder">
-            </div>
-        </div>  
-        <div class="three flex-container">
-            <div id="projects" class="flex-container">
-                <div id="project_img">
-                    <img src="images/recipe image.jpg">
-                    <div class="caption">Odin Recipe Box</div>
-                </div>
-                <div id="placeholder_img">
-                    <img src="#">
-                    <div class="caption">Project Example #2</div>
-                </div>
-            </div>
+      <div class="one flex-container">
+        <div id="header-title">Portfolio</div>
+        <div id="header-link">
+          <a href="pages/about_page.html">About Me</a>
+          <a href="https://github.com/granolagabrielle/">GitHub</a>
+          <a href="pages/contact_page.html">Contact Me</a>
         </div>
-        <div>
-            <div class="four flex-container">
-                <div id="title">Contact Me</div>
-                    <div id="link">
-                        <a href="#">Linkedin</a>
-                        <a href="#">Email</a>
-                        <a href="#">GitHub</a>
-                    </div>
-                </div>
+      </div>
+      <div class="two flex-container">
+        <div
+          id="intro"
+          class="flex-container"
+          style="justify-content: space-between; width: 700px"
+        >
+          <div id="box">
+            <div class="text-box"><h2>Gabrielle Lommel</h2><p>Hi there! I'm Gabrielle, a current project manager in higher ed, who aspires to work in the tech industry. This portfolio showcases who I am, my work experience and some of the past projects I have completed. I hope to connect with you soon!</p></div>
+          </div>
+          <div id="box">
+            <div class="image-box"><img src="images/IMG_4463.jpeg" alt="picture of me"></div>
+          </div>
+        </div>
+        </div>
+
+        <div class="three flex-container">
+          <div
+            id="projects"
+            class="flex-container"
+            style="justify-content: space-between; width: 800px"
+          >
+            <div id="box">
+              <div class="image-box project flex-container"><img src="images/recipe image.jpg" alt="picture of recipe"><a class="caption" href="https://github.com/granolagabrielle/odin-recipes">Odin Recipe Box</a></div>
+            </div>
+            <div id="box">
+              <div class="image-box project flex-container"><img src="images/pexels-negative-space-92904.jpg" alt="picture of code"><a class="caption" href="#">Project Example #2</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="four flex-container">
+            <div class="flex-container">
+              <div class="footer-wrapper contact flex-container"><img src="images/LinkedIn_Logo.svg.png" alt="linkedin logo"><a class="caption" href="https://www.linkedin.com/in/gabrielle-lommel/">Connect with me on Linkedin</a></div>
+            </div>
+            <div class="flex-container">
+                <div class="footer-wrapper contact flex-container"><img src="images/pngtree-email-icon-png-image_5065641.jpeg" alt="email icon"><a class="caption" href="#">Send me an email</a></div>  
+            </div>
+            <div class="flex-container">
+                <div class="footer-wrapper contact flex-container"><img src="images/github 2.png" alt="github logo"><a class="caption" href="https://github.com/granolagabrielle">View my projects on GitHub</a></div>  
             </div>
         </div>
     </div>
-</body>
+
+  </body>
 </html>
